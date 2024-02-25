@@ -1,0 +1,119 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Reset Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Setup */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+div.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+/*****************************/
+/* Header */
+header{
+    padding: 20px;
+    background-color: #4b4b4b;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header .container{
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*****************************/
+/* Apresentation */
+section.apresentation{
+    display: flex;
+}
+
+section.apresentation .container{
+    display: flex;
+    padding: 70px 0;
+}
+
+section.apresentation .apresentation-left, section.apresentation .apresentation-right{
+    padding: 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Apresentation Left */
+section.apresentation .apresentation-left{
+    width: 60%;
+    text-align: center;
+}
+
+section.apresentation .apresentation-left h1{
+    font-weight: 300;
+}
+
+section.apresentation .apresentation-left h1 span{
+    font-weight: 500;
+    color: #353535;
+}
+
+section.apresentation .apresentation-left img{
+    max-width: 40%;
+    margin: 40px 0 20px 0;
+    border-radius: 50%;
+}
+
+/* Apresentation Right */
+section.apresentation .apresentation-right{
+    width: 40%;
+}
+
+section.apresentation .apresentation-right img{
+    max-width: 100%;
+}
+
+/*****************************/
+/* Houses Mosaic Section */
+section.houses .container{
+    max-width: none;
+    padding: 0;
+}
+
+section.houses img{
+    max-width: 100%;
+}
+
+/*****************************/
+/* Footer */
+footer{
+    background-color: #585858;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+footer p{
+    font-size: 16px;
+}
