@@ -83,6 +83,7 @@ section.apresentation .apresentation-left img{
     max-width: 40%;
     margin: 40px 0 20px 0;
     border-radius: 50%;
+    box-shadow: 0 7px 11px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Apresentation Right */
@@ -103,6 +104,212 @@ section.houses .container{
 
 section.houses img{
     max-width: 100%;
+}
+
+/*****************************/
+/* Diferentials Section */
+section.diferentials{
+    text-align: center;
+    padding: 30px 0;
+}
+
+section.diferentials .container > h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+section.diferentials .container > h2 span, section.diferentials .container > h2 b{
+    font-weight: 500;
+}
+
+/* Diferentials Wrapper */
+section.diferentials .diferentials-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.diferentials .diferentials-wrapper .diferentials-single{
+    text-align: center;
+    padding: 40px 30px;
+    margin: 15px 10px;
+    box-shadow: 0 7px 9px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    min-width: 33.3%;
+}
+
+section.diferentials .diferentials-single p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+section.diferentials .diferentials-single i{
+    font-size: 45px;
+    transition: all 0.25s ease-in-out;
+}
+
+section.diferentials .diferentials-single i:hover{
+    color: #686868;
+}
+
+/*****************************/
+/* Bests Districts Section */
+section.bests-districts{
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    background: #e0e0e0;
+}
+
+section.bests-districts .container > h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+section.bests-districts .container > h2 span{
+    font-weight: 500;
+}
+
+/* Bests Districts Wrapper */
+section.bests-districts .bests-districts-wrapper{
+    padding: 10px;
+}
+
+section.bests-districts .bests-districts-single{
+    margin: 10px 0;
+    max-height: 300px;
+    min-height: 300px;
+    display: flex;
+    overflow: hidden;
+}
+
+/*************/
+/* Custom Widths */
+/* Child 1 */
+section.bests-districts .bests-districts-single:nth-child(1) .bests-districts-single-img{
+    width: 40%;
+    align-items: flex-start;
+    display: flex;
+}
+
+section.bests-districts .bests-districts-single:nth-child(1) .bests-districts-single-description{
+    width: 55%;
+    padding-left: 10px;
+}
+
+/* Child 2 */
+section.bests-districts .bests-districts-single:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-img{
+    background-image: url('/assets/district-csu-img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-description{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-description h2{
+    width: 100%;
+    border: none;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-description h2, 
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-description p{
+    text-shadow: 0px 5px 3px rgba(22, 22, 22, 0.5);
+}
+
+section.bests-districts .bests-districts-single:nth-child(2) .bests-districts-single-description p{
+    max-width: 700px;
+}
+
+/* Child 3 */
+section.bests-districts .bests-districts-single:nth-child(3) .bests-districts-single-img{
+    width: 30%;
+}
+
+section.bests-districts .bests-districts-single:nth-child(3) .bests-districts-single-description{
+    width: 70%;
+    padding-right: 10px;
+}
+
+/*************/
+section.bests-districts .bests-districts-single-img img{
+    max-height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+section.bests-districts .bests-districts-single-description{
+    text-align: left;
+}
+
+section.bests-districts .bests-districts-single-description h2{
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+section.bests-districts .bests-districts-single-description .bests-districts-single-stars{
+    margin-top: 5px;
+}
+
+/*****************************/
+/* Contact Section */
+section.contact{
+    padding: 40px 0;
+    padding-bottom: 60px;
+}
+
+section.contact .container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+section.contact h2{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+section.contact h2 span{
+    font-weight: 500;
+}
+
+section.contact a{
+    font-size: 50px;
+    color: #242424;
+    transition: all 0.25s ease-in-out;
+}
+
+section.contact a:hover{
+    color: #747474;
 }
 
 /*****************************/
